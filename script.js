@@ -97,7 +97,7 @@ function random_bg_color() {
   let randomColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
-  document.body.style.background = bgColor;
+  document.body.style.background = randomColor;
 }
 
 
