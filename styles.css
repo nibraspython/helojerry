@@ -43,7 +43,7 @@ body {
 
 .controls button {
     background: #000;
-    color: black;
+    color: white;
     border: none;
     padding: 10px 15px;
     margin: 5px;
@@ -57,7 +57,7 @@ body {
     text-align: left;
 }
 
-#song-list {
+.song-list {
     overflow-y: auto;
     max-height: 300px;
 }
