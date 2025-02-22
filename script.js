@@ -94,4 +94,4 @@ function changeBackgroundColor() {
 }
 
 // Change color every 5 seconds
-setInterval(changeBackgroundColor, 5000);
+setInterval(changeBackgroundColor, 1000);
