@@ -94,7 +94,7 @@ function random_bg_color() {
   let blue = Math.floor(Math.random() * 256) + 64;
 
   // Construct a color withe the given values
-  let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
+  let randomColor = "rgb(" + red + "," + green + "," + blue + ")";
 
   // Set the background to that color
   document.body.style.background = bgColor;
