@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #9266D4;
+    transition: background-color 1s ease-in-out;
     color: black;
     text-align: center;
     margin: 0;
