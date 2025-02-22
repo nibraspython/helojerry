@@ -16,7 +16,7 @@ body {
 
 .player-box {
     display: flex;
-    background: #b491e3;
+    transition: background-color 1s ease-in-out;
     border-radius: 10px;
     padding: 20px;
     width: 80%;
