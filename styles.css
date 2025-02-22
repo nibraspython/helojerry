@@ -1,5 +1,7 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    height: 100%;
     transition: background-color 1s ease-in-out;
     color: black;
     text-align: center;
