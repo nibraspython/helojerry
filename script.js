@@ -87,11 +87,19 @@ function deleteSong(index) {
     loadAdminSongs();
 }
 
-function changeBackgroundColor() {
-    const colors = ["#FF5733", "#33FF57", "#3357FF", "#FF33A1", "#F3FF33", "#33FFF3", "#9266D4", "#b491e3"]; // Add more colors if needed
-    const randomColor = colors[Math.floor(Math.random() * colors.length)];
-    document.body.style.backgroundColor = randomColor;
+function random_bg_color() {
+  // Get a number between 64 to 256 (for getting lighter colors)
+  let red = Math.floor(Math.random() * 256) + 64;
+  let green = Math.floor(Math.random() * 256) + 64;
+  let blue = Math.floor(Math.random() * 256) + 64;
+
+  // Construct a color withe the given values
+  let bgColor = "rgb(" + red + "," + green + "," + blue + ")";
+
+  // Set the background to that color
+  document.body.style.background = bgColor;
 }
 
+
 // Change color every 5 seconds
-setInterval(changeBackgroundColor, 3000);
+setInterval(random_bg_color, 3000);
